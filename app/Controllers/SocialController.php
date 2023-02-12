@@ -5,8 +5,6 @@ use app\Views\PostView;
 use app\Views\Shared\LayoutView;
 require 'app\Views\Shared\LayoutView.php';
 
-const QUERY_GET_10_POSTS_BY_ID = "SELECT * FROM posts_table WHERE id = :displayname ORDER BY timeposted DESC LIMIT 1;";
-
 use Exception;
 use PDO;
 use PDOException;
